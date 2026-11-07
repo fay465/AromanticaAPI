@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Aromantica.Catalogo.API/Aromantica.Catalogo.API.csproj" />
+  <Project Path="Aromantica.Comercios.API/Aromantica.Comercios.API.csproj" />
+  <Project Path="Aromantica.Cotizaciones.API/Aromantica.Cotizaciones.API.csproj" />
+  <Project Path="Aromantica.Identidad.API/Aromantica.Identidad.API.csproj" />
+</Solution>

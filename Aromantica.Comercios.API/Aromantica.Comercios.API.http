@@ -1,0 +1,6 @@
+@Aromantica.Comercios.API_HostAddress = http://localhost:5168
+
+GET {{Aromantica.Comercios.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

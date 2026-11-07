@@ -1,0 +1,27 @@
+# Carpetas de compilación y caché de Visual Studio
+.vs/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Archivos de usuario locales (como tu Aromantica.slnLaunch.user)
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+appsettings.Development.Local.json
+
+# Caché de Python
+__pycache__/
+venv/
+.venv/
+
+# Futuro proyecto React
+node_modules/
+dist/
