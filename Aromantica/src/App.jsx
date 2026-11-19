@@ -33,6 +33,7 @@ export default function App() {
   }, [sesion]);
 
   const cerrarSesion = () => {
+    localStorage.removeItem('token');
     setSesion(null);
     setVistaActual('login');
     setPerfumeSeleccionado(null);
