@@ -57,6 +57,18 @@ Para poblar automáticamente las tiendas nacionales, 16 marcas, 32 perfumes y co
 1. Crear o iniciar sesión con una cuenta de rol `Administrador` en `POST /api/v1/auth/login` (`http://localhost:5101/swagger`) y copiar el token JWT.
 2. Pegar el token en `JWT_TOKEN` dentro de `poblar.py`.
 3. Ejecutar desde terminal:
-   ```bash
-   pip install requests urllib3
-   python poblar.py
+
+```bash
+pip install requests urllib3
+python poblar.py
+```
+
+### 4. Frontend (React + Vite)
+Con las 4 APIs corriendo, abrir una terminal en la carpeta del cliente React y ejecutar:
+
+```bash
+npm install
+npm run dev
+```
+
+Abrir en el navegador la URL indicada por Vite (por defecto `http://localhost:5173`).
